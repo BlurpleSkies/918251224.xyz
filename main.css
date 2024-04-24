@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.animated-gradient {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: animateBg 500s linear infinite;
+    background-image: linear-gradient(0deg,#31303A,#6A687E,#31303A,#6A687E);
+    background-size: 100% 300%;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+  }

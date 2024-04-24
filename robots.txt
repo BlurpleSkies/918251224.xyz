@@ -1,0 +1,4 @@
+Sitemap: https://www.918251224.xyz/sitemap.xml
+
+User-agent: *
+Allow: /
